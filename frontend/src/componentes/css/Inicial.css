@@ -1,0 +1,41 @@
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  color: white;
+}
+
+.descricao {
+  flex: 0 0 60%; 
+  padding-right: 180px;
+}
+
+.imagem-container {
+  flex: 0 0 40%; 
+  margin-left: 20px;
+}
+
+.primeira-letra {
+  color: white;
+  font-weight: bold;
+}
+
+.descricao h1 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.descricao .descricao-texto {
+  font-size: 24px; 
+  color: white;
+  text-align: justify;
+}
+
+.imagem-lateral {
+  margin-top: 60px;
+  width: 100%; 
+  height: auto; 
+}
+

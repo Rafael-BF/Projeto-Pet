@@ -1,0 +1,86 @@
+.styleForm {
+    display: block;
+    width: 100%; /* Ocupa toda a largura da sua seção */
+    padding: 2rem;
+    background-color: #333; /* Fundo escuro para destacar o texto amarelo */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra mais intensa para profundidade em fundo escuro */
+    border-radius: 8px; /* Bordas arredondadas para o formulário */
+}
+
+.styleForm h5, .styleForm h6, .label {
+    color: yellow; /* Manter a cor para destaque */
+    font-family: 'Arial', sans-serif; /* Tipografia mais moderna e legível */
+}
+
+.styleForm h6 {
+    font-weight: bold;
+}
+
+.label {
+    color: yellow;
+    margin-bottom: 0.5rem; /* Espaçamento abaixo dos rótulos */
+}
+
+.form-control {
+    border: 2px solid #ccc; /* Borda mais visível */
+    border-radius: 4px; /* Bordas arredondadas para inputs */
+    padding: 10px; /* Maior padding para facilidade de entrada de texto */
+    margin-bottom: 1rem; /* Espaçamento entre campos */
+    background-color: #fff; /* Fundo claro para os campos de entrada */
+    color: #333; /* Texto escuro para contraste */
+}
+
+button {
+    background: linear-gradient(135deg, #ffcc00, #e6b800); /* Gradiente para o botão */
+    color: #ffffff; /* Texto branco para contraste */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer; /* Cursor de mão quando passar o mouse */
+    transition: background 0.3s, transform 0.3s; /* Transições suaves para o hover e clique */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #e6b800, #cc9900); /* Cor mais escura no hover */
+    transform: translateY(-2px); /* Leve deslocamento para cima no hover */
+}
+
+button:active {
+    background: linear-gradient(135deg, #cc9900, #b38600); /* Cor ainda mais escura no clique */
+    transform: translateY(0); /* Reseta o deslocamento no clique */
+}
+
+/* Layout dividido e espaçamento */
+.content {
+    display: flex;
+    justify-content: space-around; /* Alterado para centralizar conteúdo horizontalmente */
+    align-items: center; /* Alterado para centralizar conteúdo verticalmente */
+    width: 100%; /* Utiliza toda a largura disponível */
+    gap: 20px; /* Espaço entre as seções de formulário e imagens */
+    margin-left: 0; /* Removido o deslocamento negativo */
+}
+
+.formSection {
+    width: 70%;
+    padding-right: 10px; /* Evita que o formulário toque diretamente na seção de imagens */
+}
+
+.imageSection {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Adicionado para centralizar os itens verticalmente */
+    gap: 10px; /* Define um espaçamento consistente entre as imagens */
+}
+
+.imageSection img {
+    width: 200px; /* As imagens ocupam toda a largura da seção */
+    height: 150px; /* Altura fixa */
+    margin: auto; /* Adicionado para centralizar as imagens horizontalmente */
+}
+
+.textarea-mensagem {
+    height: calc(3 * 1.5em); /* Ajuste conforme necessário */
+}

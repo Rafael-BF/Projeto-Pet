@@ -1,0 +1,17 @@
+
+.container-custom {
+    margin-top: 20px;
+    width: calc(100% - 40px); 
+    max-width: none; 
+}
+
+.foto {
+    height: 50px;
+}
+
+.custom-container-style {
+    margin-top: 20px;
+    width: calc(100% - 40px);
+    max-width: none; 
+}
+

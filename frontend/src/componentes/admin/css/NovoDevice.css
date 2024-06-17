@@ -1,0 +1,16 @@
+
+.style-form {
+    display: block;
+    width: 900px; 
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 20px; 
+    margin-left: -200px;
+    h5 {
+        color: yellow;
+    }
+    h6 {
+        color: white;
+        font-weight: bold;
+    }
+}

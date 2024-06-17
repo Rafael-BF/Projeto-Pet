@@ -1,0 +1,53 @@
+/* Menu.css */
+nav {
+    background: #58617b;
+    color: white;
+    min-height: 5vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 160px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    padding-left: 30px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  h1 {
+    color: white;
+  }
+  
+  h5 {
+    color: yellow;
+  }
+  
+  .highlight {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  .logo {
+    height: 90px;
+    margin-right: 0px;
+  }
+  

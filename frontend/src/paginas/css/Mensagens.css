@@ -1,0 +1,15 @@
+.contStyled {
+    padding: 0px 160px; 
+    color: #353535;
+    min-height: 720px; 
+}
+
+.title {
+    margin-bottom: 64px; 
+}
+
+.title h1 {
+    color: yellow;
+    font-weight: bold;
+}
+
